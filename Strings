@@ -1,1 +1,15 @@
-Username=Michael
+list_1 = []
+
+def accountinput():
+    account = input("Enter the account this username and password are for:")
+    list_1.append(account)
+def usernameinput():
+    username = input("Enter the username for this account:")
+    list_1.append(username)
+def pwinput():
+    pw = input("Enter the password for this account")
+    list_1.append(pw)
+accountinput()
+usernameinput()
+pwinput()
+print(list_1)
